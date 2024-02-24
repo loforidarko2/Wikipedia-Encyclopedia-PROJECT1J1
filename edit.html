@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Page - Wikipedia Online Encyclopedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with search button -->
+    <header>
+        <h1>Wikipedia</h1>
+        <p>The Free Encyclopedia</p>
+
+         <!-- Navigation links -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new.html">New Page</a></li>
+            <li><a href="edit.html" class="edit">Edit Page</a></li>
+            <li><a href="random.html">Random Page</a></li>
+        </ul>
+    </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <h2>Edit Existing Content</h2>
+        <form action="#" method="post">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content" rows="10" cols="50"></textarea><br>
+            <input type="submit" value="Save">
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Web-Based Concepts and Development - CSM 399 (Group 1J1)</p>
+    </footer>
+</body>
+</html>
